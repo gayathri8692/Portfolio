@@ -1,0 +1,191 @@
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Slabo 40px', serif;
+}
+
+.navbar {
+  background-color: rgb(25, 21, 21);
+  padding: 10px;
+  height: 90px;
+}
+
+a.navbar-brand {
+  font-size: 30px;
+}
+
+#name {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul a {
+  font-size: 24px;
+  margin-left: 80px;
+}
+
+.panel-title {
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  background: lavenderblush;
+  border-radius: 20px;
+}
+
+.panel-body {
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.panel-footer {
+  font-size: 18px;
+}
+
+#me {
+  font-size: 24px;
+}
+
+.label {
+  font-size: 20px;
+  display: inline-block;
+  margin: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,100);
+  border-radius: 20px;
+  background: white;
+  color: black;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-toggle .collapsed {
+  background-color: #E4F1FE;
+}
+
+.thumbnail {
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,1);
+  height: 290px;
+  padding: 20px;
+}
+
+.thumbFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #E4F1FE;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #875BC2;
+}
+
+#project-container.container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  
+}
+
+.caption {
+  background: lavenderblush;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.text-center {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
+
+footer a {
+  margin: 5px;
+  color: #E4F1FE;
+}
+
+footer a:hover {
+  color: #875BC2;
+}
+
+#btn {
+  color: black;
+  border: 1px solid grey;
+}
+
+#btn:hover,
+#btn.hover {
+  background-color: #875BC2;
+}
+
+#btn:active,
+#btn.active {
+  background-color: #875BC2;
+}
+
+#btn2 {
+  color: black;
+  border: 1px solid grey;
+}
+
+#btn2:hover,
+#btn2.hover {
+  background-color: #875BC2;
+}
+
+#btn2:active,
+#btn2.active {
+  background-color: #875BC2;
+}
+
+
+.thumbnail img {
+  height: 285px;
+}
+
+header {
+  height: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .grid {
+    display: none;
+  }
+}
