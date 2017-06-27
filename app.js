@@ -9,6 +9,7 @@ const path = require('path');
 var index = require('./routes/index.js');
 var projects = require('./routes/projects.js');
 var contact = require('./routes/contact.js');
+var skills = require('./routes/skills.js');
 
 
 // view engine setup
@@ -32,9 +33,10 @@ app.use(require('node-sass-middleware')({
 app.use('/', index);
 app.use('/projects', projects);
 app.use('/contact', contact);
+app.use('/skills', skills);
 
 //set up PORT
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 app.listen(port);
 console.log(`App running on port ${port}...`);
 

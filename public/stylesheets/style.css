@@ -1,13 +1,11 @@
 @media only screen and (min-width: 900px) {
 html {
   overflow-y: scroll;
-  background-image: url('../images/wood.jpg');
 }
 
 body {
   padding-top: 70px;
   padding-bottom: 40px;
-  background-image: url('../images/wood.jpg');
 }
 
 * {
@@ -15,11 +13,11 @@ body {
 }
 
 h1 {
-  font-family: 'Slabo 40px', serif;
+  font-family: 'Gudea', sans-serif;
 }
 
 .navbar {
-  background-color: rgb(25, 21, 21);
+  background-color: white;
   padding: 20px;
   height: 90px;
 }
@@ -30,7 +28,8 @@ a.navbar-brand {
 
 #name {
   color: white;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
+  color: black;
 }
 
 nav ul a {
@@ -38,48 +37,59 @@ nav ul a {
   margin-left: 40px;
 }
 
+
+ul.nav.navbar-nav.navbar-right a {
+  color: black;
+  font-family: 'Gudea', sans-serif;
+}
+
+
 .flexInfo {
   margin-top: 20px;
 }
-
+/*
 .panel-title {
-  font-size: 30px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  font-family: 'Karla', sans-serif;
   font-weight: bold;
-  background: #6A4634;
-  border-radius: 20px;
-  color: white;
-}
+  color: black;
+  text-align: center;
+}*/
 
 .panel-body {
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.panel-footer {
-  font-size: 18px;
+  font-family: 'Karla', sans-serif;
 }
 
 #me {
-  font-size: 24px;
-  color: black;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  color: #5A4747;
+  font-family: 'Karla', sans-serif;
+}
+
+.text-center {
+  font-family: 'Karla', sans-serif;
+  color: #5A4747;
+  margin: 0 auto;
 }
 
 .label {
   font-size: 20px;
   display: inline-block;
   margin: 5px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
   box-shadow: 7px 7px 20px 0px rgba(0,0,0,100);
   border-radius: 20px;
   background: white;
   color: black;
+  height: 60px;
+  width: 150px;
+  text-align: center;
 }
 
 .subtitle {
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .navbar-toggle .collapsed {
@@ -104,6 +114,9 @@ nav ul a {
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #875BC2;
+  text-decoration: underline;
+  -moz-text-decoration-color: black;
+  text-decoration-color: black;
 }
 
 #project-container.container {
@@ -116,9 +129,10 @@ nav ul a {
 }
 
 .caption {
-  background: #6A4634;
+  background: gray;
   border-radius: 20px;
   color: white;
+  font-family: 'Gudea', sans-serif;
 }
 
 h3 {
@@ -129,12 +143,6 @@ h3 {
 p {
   font-size: 20px;
   color: white;
-}
-
-.text-center {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  font-size: 44px;
 }
 
 
@@ -166,8 +174,11 @@ footer a:hover {
 }
 
 #btn {
-  color: black;
+  color: white;
   border: 1px solid grey;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: black;
 }
 
 #btn:hover,
@@ -181,8 +192,11 @@ footer a:hover {
 }
 
 #btn2 {
-  color: black;
+  color: white;
   border: 1px solid grey;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: black;
 }
 
 #btn2:hover,
@@ -219,18 +233,62 @@ header {
   height: 500px;
 }
 
-h1.contact {
+/*h1.contact {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Karla', sans-serif;
   margin: 50px;
   color: white;
   font-size: 70px;
-}
+}*/
 
-a.ct {
+/*a.ct {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 20px;
+}*/
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 200px 50px;
 }
+
+
+a.ct {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
+
+.skill {
+  padding: 80px 200px;
+}
+
+img.my-pic {
+  height: 220px;
+  width: 220px;
+  border-radius: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border: 10px solid gray;
+}
+
+.text-center-proj {
+  font-family: 'Karla', sans-serif;
+  color: #5A4747;
+  text-align: center;
+  font-size: 40px;
+  padding: 80px 0;
+}
+
+
+}
+
+
+/*font-family: 'Karla', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Gudea', sans-serif;*/
