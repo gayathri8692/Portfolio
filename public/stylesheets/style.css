@@ -1,3 +1,283 @@
+
+/**************************************/
+/**************************************/
+/************* MOBILE VERSION*********/
+/**************************************/
+/**************************************/
+
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Gudea', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  padding: 50px;
+  height: 50px;
+}
+
+a.navbar-brand {
+  font-size: 20px;
+}
+
+#name {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  color: black;
+}
+
+nav ul a {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+
+ul.nav.navbar-nav.navbar-right a {
+  color: black;
+  font-family: 'Gudea', sans-serif;
+}
+
+
+.flexInfo {
+  margin-top: 10px;
+}
+
+.panel-body {
+  font-size: 12px;
+  font-family: 'Karla', sans-serif;
+}
+
+#me {
+  font-size: 15px;
+  color: #5A4747;
+  font-family: 'Karla', sans-serif;
+}
+
+.text-center {
+  font-family: 'Karla', sans-serif;
+  color: #5A4747;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 16px;
+  display: inline-block;
+  margin: 5px;
+  font-family: 'Karla', sans-serif;
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,100);
+  border-radius: 20px;
+  background: white;
+  color: black;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-family: 'Karla', sans-serif;
+}
+
+.navbar-toggle .collapsed {
+  background-color: white;
+  color: black;
+}
+
+.thumbnail {
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,1);
+  height: 290px;
+  padding: 20px;
+}
+
+.thumbFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #875BC2;
+  text-decoration: underline;
+  -moz-text-decoration-color: black;
+  text-decoration-color: black;
+}
+
+#project-container.container {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.caption {
+  background: gray;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Gudea', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px;
+  color: white;
+}
+
+#foot {
+  margin: 5px;
+}
+
+footer a {
+  margin: 5px;
+  color: white;
+}
+
+footer a:hover {
+  color: #875BC2;
+}
+
+#btn {
+  color: white;
+  border: 1px solid grey;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: black;
+}
+
+#btn:hover,
+#btn.hover {
+  background-color: #875BC2;
+}
+
+#btn:active,
+#btn.active {
+  background-color: #875BC2;
+}
+
+#btn2 {
+  color: white;
+  border: 1px solid grey;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: black;
+}
+
+#btn2:hover,
+#btn2.hover {
+  background-color: #875BC2;
+}
+
+#btn2:active,
+#btn2.active {
+  background-color: #875BC2;
+}
+
+
+.thumbnail {
+  height: 600px;
+}
+
+
+.thumbnail img {
+  height: 285px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+header {
+  height: 50px;
+}
+
+
+
+/*contact ejs*/
+
+.jumbotron {
+  height: 500px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 200px 50px;
+}
+
+
+a.ct {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.skill {
+  padding: 80px 200px;
+}
+
+img.my-pic {
+  height: 220px;
+  width: 220px;
+  border-radius: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border: 10px solid gray;
+}
+
+.text-center-proj {
+  font-family: 'Karla', sans-serif;
+  color: #5A4747;
+  text-align: center;
+  font-size: 40px;
+  padding: 80px 0;
+}
+
+
+
+/**************************************/
+/**************************************/
+/************* DESKTOP VERSION*********/
+/**************************************/
+/**************************************/
+
+
 @media only screen and (min-width: 900px) {
 html {
   overflow-y: scroll;
@@ -284,7 +564,6 @@ img.my-pic {
   font-size: 40px;
   padding: 80px 0;
 }
-
 
 }
 
