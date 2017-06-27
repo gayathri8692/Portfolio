@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 900px) {
 html {
   overflow-y: scroll;
   background-image: url('../images/wood.jpg');
@@ -35,7 +35,7 @@ a.navbar-brand {
 
 nav ul a {
   font-size: 24px;
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .flexInfo {
@@ -109,7 +109,10 @@ nav ul a {
 #project-container.container {
   margin-top: 40px;
   margin-bottom: 100px;
-  
+}
+
+.container {
+  margin: 0 auto;
 }
 
 .caption {
@@ -230,9 +233,4 @@ a.ct {
   justify-content: center;
   margin: 20px;
 }
-
-@media only screen and (max-width: 700px) {
-  .grid {
-    display: none;
-  }
 }
