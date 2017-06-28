@@ -157,16 +157,17 @@ p {
 footer {
   text-align: center;
   background-color: rgba(0,0,0,0.5);
-  padding: 3px;
+  /*padding: 3px;*/
   color: white;
 }
 
 #foot {
-  margin: 5px;
+  /*margin: 5px;*/
+  font-size: 12px;
 }
 
 footer a {
-  margin: 5px;
+  /*margin: 5px;*/
   color: white;
 }
 
@@ -515,6 +516,7 @@ p {
 
 #foot {
   margin: 5px;
+  font-size: 20px;
 }
 
 footer a {
