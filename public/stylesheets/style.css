@@ -23,6 +23,13 @@ h1 {
   font-family: 'Gudea', sans-serif;
 }
 
+h1.text-center-proj {
+  font-size: 20px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+
 .navbar {
   background-color: white;
   /*padding: 50px;*/
@@ -105,7 +112,7 @@ ul.nav.navbar-nav.navbar-right a {
 .thumbFlex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -218,7 +225,7 @@ footer a:hover {
 
 
 .thumbnail img {
-  height: 285px;
+  height: 185px;
   margin-bottom: 50px;
   border-radius: 20px;
 }
@@ -250,7 +257,7 @@ a.ct {
 }
 
 .skill {
-  padding: 80px 200px;
+  padding: 80px 80px;
 }
 
 img.my-pic {
@@ -263,30 +270,18 @@ img.my-pic {
   border: 5px solid gray;
 }
 
-.text-center-proj {
+h1.text-center-proj {
   font-family: 'Karla', sans-serif;
   color: #5A4747;
   text-align: center;
-  font-size: 40px;
+  font-size: 18px;
   padding: 80px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+span.label {
+  height: 50px;
+  width: 120px;
+}
 
 
 
@@ -632,13 +627,15 @@ img.my-pic {
   border: 10px solid gray;
 }
 
-.text-center-proj {
+h1.text-center-proj {
   font-family: 'Karla', sans-serif;
   color: #5A4747;
   text-align: center;
+  width: 850px;
   font-size: 40px;
   padding: 80px 0;
 }
+
 
 }
 
