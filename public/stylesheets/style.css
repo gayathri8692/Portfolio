@@ -10,11 +10,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -32,8 +27,7 @@ h1.text-center-proj {
 
 .navbar {
   background-color: white;
-  /*padding: 50px;*/
-  height: 20px;
+  /* height: 20px; */
 }
 
 a.navbar-brand {
@@ -68,9 +62,10 @@ ul.nav.navbar-nav.navbar-right a {
 }
 
 #me {
-  font-size: 15px;
+  font-size: 13px;
   color: #5A4747;
   font-family: 'Karla', sans-serif;
+  padding: 0 22%;
 }
 
 .text-center {
@@ -347,11 +342,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  padding-top: 70px;
-  padding-bottom: 40px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -389,7 +379,7 @@ ul.nav.navbar-nav.navbar-right a {
 
 
 .flexInfo {
-  margin-top: 20px;
+  margin-top: 100px;
 }
 /*
 .panel-title {
@@ -406,10 +396,9 @@ ul.nav.navbar-nav.navbar-right a {
 }
 
 #me {
-  font-size: 28px;
+  font-size: 30px;
   color: #5A4747;
   font-family: 'Karla', sans-serif;
-  margin-bottom: -15px;
 }
 
 .text-center {
