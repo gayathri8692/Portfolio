@@ -27,7 +27,6 @@ h1.text-center-proj {
 
 .navbar {
   background-color: white;
-  /* height: 20px; */
 }
 
 a.navbar-brand {
@@ -54,6 +53,7 @@ ul.nav.navbar-nav.navbar-right a {
 
 .flexInfo {
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 .panel-body {
@@ -65,7 +65,7 @@ ul.nav.navbar-nav.navbar-right a {
   font-size: 13px;
   color: #5A4747;
   font-family: 'Karla', sans-serif;
-  padding: 0 22%;
+  padding: 0 15%;
 }
 
 .text-center {
@@ -127,7 +127,6 @@ ul.nav.navbar-nav.navbar-right a {
 }
 
 .container {
-  /*margin-top: 50px;*/
   margin: 0 auto;
 }
 
@@ -158,19 +157,17 @@ p {
 
 footer {
   text-align: center;
-  background-color: rgba(0,0,0,0.5);
-  /*padding: 3px;*/
+  background-color: rgba(105, 105, 105, 0.479);
   color: white;
 }
 
 #foot {
-  /*margin: 5px;*/
   font-size: 12px;
 }
 
 footer a {
-  /*margin: 5px;*/
   color: white;
+  padding: 0 20px;
 }
 
 footer a:hover {
@@ -224,14 +221,7 @@ footer a:hover {
   margin-bottom: 50px;
   border-radius: 20px;
 }
-/*
-header {
-  height: 50px;
-}*/
 
-
-
-/*contact ejs*/
 
 .jumbotron {
   height: 500px;
@@ -265,12 +255,12 @@ img.my-pic {
   border: 5px solid gray;
 }
 
-h1.text-center-proj {
+.text-center-proj {
   font-family: 'Karla', sans-serif;
   color: #5A4747;
   text-align: center;
   font-size: 18px;
-  padding: 80px 0;
+
 }
 
 span.label {
@@ -279,36 +269,13 @@ span.label {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#connect {
+  font-size: 16px;
+  color: #5A4747;
+  font-family: 'Karla', sans-serif;
+  padding: 10% 15%;
+  text-align: center;
+}
 
 
 
@@ -381,14 +348,7 @@ ul.nav.navbar-nav.navbar-right a {
 .flexInfo {
   margin-top: 100px;
 }
-/*
-.panel-title {
-  font-size: 40px;
-  font-family: 'Karla', sans-serif;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-}*/
+
 
 .panel-body {
   font-size: 12px;
@@ -396,7 +356,7 @@ ul.nav.navbar-nav.navbar-right a {
 }
 
 #me {
-  font-size: 30px;
+  font-size: 24px;
   color: #5A4747;
   font-family: 'Karla', sans-serif;
 }
@@ -462,9 +422,6 @@ div.container {
   margin: 0 auto;
 }
 
-div#me.panel-body.text-center {
-  /*margin-bottom: 170px;*/
-}
 
 .caption {
   background: gray;
@@ -493,19 +450,14 @@ p {
 
 .footer {
   text-align: center;
-  background-color: rgba(0,0,0,0.5);
-  padding: 3px;
+  background-color: rgba(105, 105, 105, 0.479);
   color: white;
 }
 
-#foot {
-  margin: 5px;
-  font-size: 20px;
-}
 
 footer a {
-  margin: 5px;
   color: white;
+  font-size: 27px;
 }
 
 footer a:hover {
@@ -565,28 +517,10 @@ header {
 }
 
 
-
-/*contact ejs*/
-
 .jumbotron {
   height: 500px;
 }
 
-/*h1.contact {
-  text-align: center;
-  font-family: 'Karla', sans-serif;
-  margin: 50px;
-  color: white;
-  font-size: 70px;
-}*/
-
-/*a.ct {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}*/
 
 .contact {
   display: flex;
@@ -625,10 +559,26 @@ h1.text-center-proj {
   padding: 80px 0;
 }
 
-
+#button-project {
+  background-color: grey;
+  border-color: grey;
+  font-size: 22px;
+  width: 200px;
+  align-content: center;
 }
 
+#proj-home {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
 
-/*font-family: 'Karla', sans-serif;
-font-family: 'Karla', sans-serif;
-font-family: 'Gudea', sans-serif;*/
+#connect {
+  font-size: 25px;
+  color: #5A4747;
+  font-family: 'Karla', sans-serif;
+  padding: 10% 15%;
+  text-align: center;
+}
+
+}

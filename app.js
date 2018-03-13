@@ -36,7 +36,7 @@ app.use('/contact', contact);
 app.use('/skills', skills);
 
 //set up PORT
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 app.listen(port);
 console.log(`App running on port ${port}...`);
 
